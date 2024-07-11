@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikash's Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg.jpg');
+        color: aliceblue;
+        height: auto;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+
+      
+    }
+    .left img{
+        padding: 0px;
+        margin: 0px;
+width: 50px;
+height: 50px;
+filter: invert(100%);
+
+    }
+    .left div{
+text-align: center;
+font-size: larger;
+font-weight: bolder;
+
+    }
+
+    .mid {
+        display:block;
+    padding: 7px 0px;
+        width: 700px;
+        margin: 0px auto;
+         
+    }
+ .navbar li  a:hover{
+    text-decoration: underline;
+    color: wheat;
+    
+    
+ }
+ .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+.navbar li a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+    .right {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        display: inline-block;
+        
+    }
+    .btn{
+        margin: 20px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        font-size: large;
+        cursor: pointer;
+        border: 1px solid white;
+        border-radius: 7px;
+    }
+    .btn:hover{
+        color: blanchedalmond;
+        background-color:rgb(45, 37, 37);
+    }
+ .container{
+    float: right;
+    width: 450px;
+     border: 1px solid white; 
+    margin: 40px 15px;
+    padding: 30px 20px;
+    border-radius: 15px;
+ }
+ .container h1{
+    text-align: center;
+ }
+ .formgroup input{
+text-align: center;
+display: block;
+width:150px;
+padding: 2px solid green;
+ margin: 3px auto;
+ border: 2px solid black;
+ border-radius: 7px;
+ }
+ .container button{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 8px;
+ }
+ 
+.footer {
+    display: block;
+    width: 600px;
+    margin: auto;
+    padding-top: 98%;
+    text-align: center;
+    color: white;
+    
+ 
+}
+.footer div h1:hover{
+    color: bisque;
+    text-decoration: underline;
+}
+  
+</style>
+
+<body>
+
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.png.png" alt="" class="s">
+<div> Vikash's Fitness</div>
+        </div>
+        <!-- mid box for the navbar -->
+        <div class="mid">
+           <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#"> Fitness Calculator</a></li>
+            <li><a href="#"> Contact Us</a></li>
+            </li>
+           </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+          <button class="btn">Call Us Now</button>
+          <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+     <h1>Join the best gym of  Buxar 
+    </h1>
+     <form action="noacton.php">
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your age ">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your gender">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your locality">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter suitable time">
+        </div>
+        <button class="btn">Submit</button>
+     </form>
+    </div>
+     <footer class="footer">
+        <div class="footer">
+           <h1> <p>&copy;  2024  Netflix.  All rights reserved.</p>
+           </h1>
+        </div>
+     </footer>
+   
+</body>
+
+</html>
